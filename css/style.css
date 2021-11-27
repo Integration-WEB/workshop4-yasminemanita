@@ -1,0 +1,22 @@
+@font-face {
+    font-family:"LacunaRegular" ;
+    src: url(fontface\Lacuna-Regular-fontfacekit\webfonts\lacuna_regular_macroman\lacuna-webfont.ttf) format(truetype);
+}:root {
+    --primary-color: #3a0a1d;
+    --secondary-color: #f0bd01;
+    --font-color: #bbaeb3;
+    --navbar-color: #2d2b2b;
+}
+
+.navbar {
+    background-color: var(--navbar-color);
+
+}
+.nav-link {
+    color:white !important;
+}
+.navbar-brand {
+    color:white !important;
+    background-color: white;
+
+}
